@@ -649,7 +649,7 @@ video {
         display: none
     }
     .demo {
-        transform: scale(0.9)
+        transform: scale(0.8)
     }
     .paypal {
         width: 50vw;
