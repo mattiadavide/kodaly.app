@@ -658,7 +658,7 @@ video {
     }
 
     video {transform: scale(1.5)}
-.map-container iframe {width: 100vw; height: 90vw; padding-top: 60px;}
+.map-container iframe {width: 100vw; height: 70vw; padding-top: 60px;}
 }
     
     
