@@ -145,15 +145,7 @@
          
             <select class="song_select " style="display: none;">
                 <option value="8" selected>Song1</option>
-                <option value="2">Song2</option>
-                <option value="3">Song3</option>
-                <option value="4">Song4</option>
-                <option value="5">Song5</option>
-                <option value="6">Song6</option>
-                <option value="7">Song7</option>
-                <option value="1">Song8</option>
-                <option value="9">Song9</option>
-            </select>
+                </select>
 
             
 
@@ -368,15 +360,9 @@
         let AudioContextFunc = window.AudioContext || window.webkitAudioContext;
         let audioContext = new AudioContextFunc();
         let player = new WebAudioFontPlayer();
-        player.loader.decodeAfterLoading(audioContext, 'song1');
-        player.loader.decodeAfterLoading(audioContext, 'song2');
-        player.loader.decodeAfterLoading(audioContext, 'song3');
-        player.loader.decodeAfterLoading(audioContext, 'song4');
-        player.loader.decodeAfterLoading(audioContext, 'song5');
-        player.loader.decodeAfterLoading(audioContext, 'song6');
-        player.loader.decodeAfterLoading(audioContext, 'song7');
+       
         player.loader.decodeAfterLoading(audioContext, 'song8');
-        player.loader.decodeAfterLoading(audioContext, 'song9');
+       
         let duration = 100;
         let song = '';
         const lastsong = 9;
